@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>XBOX</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <!-- Логотип слева -->
+        <div class="logo">
+          <img src="./img/xbox.png" alt="" />
+        </div>
+
+        <!-- Меню справа -->
+        <div class="nav-menu">
+          <!-- Games с выпадающим меню -->
+          <div class="nav-item">
+            Games
+            <span class="dropdown-arrow"
+              ><img src="./img/down-arrow.png" alt=""
+            /></span>
+          </div>
+
+          <!-- Consoles с выпадающим меню -->
+          <div class="nav-item">
+            Consoles
+            <span class="dropdown-arrow"
+              ><img src="./img/down-arrow.png" alt=""
+            /></span>
+          </div>
+
+          <!-- Community -->
+          <div class="nav-item">Community</div>
+
+          <!-- Поиск -->
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search" />
+          </div>
+
+          <!-- Профиль пользователя -->
+          <div class="user-menu">
+            <img src="./img/user.png" alt="" />
+            <div class="user-text">My XBOX</div>
+            <span class="dropdown-arrow"
+              ><img src="./img/down-arrow.png" alt=""
+            /></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="slider">
+      <!-- Радиокнопки для навигации -->
+      <input type="radio" name="slide" id="slide1" checked />
+      <input type="radio" name="slide" id="slide2" />
+      <input type="radio" name="slide" id="slide3" />
+
+      <!-- Обёртка слайдов -->
+      <div class="slides">
+        <div
+          class="slide"
+          id="slide-1"
+          style="
+            background-image: url('./img/Star-Wars-Battlefront-II-combat.png');
+          "
+        ></div>
+      </div>
+
+      <!-- Контроллеры -->
+      <label for="slide3" class="arrow prev"
+        ><img src="./img/icon-prev.png" alt="Previous"
+      /></label>
+      <label for="slide2" class="arrow next"
+        ><img src="./img/icon-next.png" alt="Next"
+      /></label>
+
+      <!-- Индикаторы -->
+      <div class="indicators">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+
+      <!-- Контент справа по центру -->
+      <div class="content">
+        <h1>Star Wars</h1>
+        <h2>Battlefront II</h2>
+        <div class="buttons">
+          <button class="btn watch">Watch Trailer</button>
+          <button class="btn explore">Explore Games</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-columns">
+          <!-- Первая колонка -->
+          <div class="footer-column">
+            <div class="footer-title">XBOX</div>
+            <a href="#" class="footer-link">Support</a>
+            <a href="#" class="footer-link">Contact us</a>
+            <a href="#" class="footer-link">Privacy & cookies</a>
+            <a href="#" class="footer-link">Terms of use</a>
+          </div>
+
+          <!-- Вторая колонка -->
+          <div class="footer-column">
+            <div class="footer-title">Developers</div>
+            <a href="#" class="footer-link">Games</a>
+            <a href="#" class="footer-link">Windows 10</a>
+            <a href="#" class="footer-link">Creators Program</a>
+            <a href="#" class="footer-link">Designed for XBOX</a>
+          </div>
+
+          <!-- Третья колонка -->
+          <div class="footer-column">
+            <div class="footer-title">Follow Us</div>
+            <div class="social-icons">
+              <a href="#"
+                ><img src="./img/Faacebook.png" alt="" class="social-icon"
+              /></a>
+              <a href="#"
+                ><img src="./img/Twitter.png" alt="" class="social-icon"
+              /></a>
+              <a href="#"
+                ><img src="./img/Instagram.png" alt="" class="social-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="footer-bottom">
+          <div class="language">English (United States)</div>
+          <div class="copyright">© Microsoft 2017</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
